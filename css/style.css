@@ -59,3 +59,41 @@ body{
     font-size: 12px;
 
 }
+
+/*--SPACE --*/
+#space{
+    margin: 20px;
+    background-color: #ffffff;
+    width: 60%;
+    padding: 20px;
+}
+#space header{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+#space header h2{
+    font-size: 20px;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+}
+#space header h2::after{
+    content: "   EDIT";
+    font-size: 10px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+#space header h6{
+    font-size: 11px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+#space article{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+#space article img{
+    width: 90%;
+}
