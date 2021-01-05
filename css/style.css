@@ -18,15 +18,15 @@ body{
     text-align: center;
     margin: 20px;
     padding: 30px;
+    text-transform: uppercase;
 }
 .logo_and_links h1{
     font-size: 40px;
     letter-spacing: 30px;
-    margin-bottom: 30px;
 }
 .logo_and_links h3{
-    font-size: 20px;
-    letter-spacing: 10px;
+    font-size: 12px;
+    letter-spacing: 6px;
     margin-bottom: 30px;
 }
 .navbar{
@@ -37,7 +37,25 @@ body{
     display: flex;
     justify-content: space-between;
 }
-
 .links li a{
     color: #1f1e1e;
+    font-size: 14px;
+    font-weight: bold;
+}
+.pictures{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.pictures article{
+    text-align: center;
+}
+.pictures article img{
+    width: 400px;
+    margin-bottom: 8px;
+}
+.pictures article h6{
+    text-transform: uppercase;
+    font-size: 12px;
+
 }
