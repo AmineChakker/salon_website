@@ -89,6 +89,10 @@ body{
     letter-spacing: 4px;
     margin-bottom: 10px;
 }
+#space p{
+    font-size: 14px;
+    line-height: 26px;
+}
 #space article{
     width: 90%;
     margin: auto;
